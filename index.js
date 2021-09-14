@@ -5,7 +5,7 @@ var app = express();
 
 const port = 8080;
 
-const staticPath = path.join(__dirname, './public');
+const staticPath = path.join(__dirname, './');
 
 app.use(express.static(staticPath));
 
