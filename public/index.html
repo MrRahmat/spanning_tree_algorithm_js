@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Spanning Tree</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Paper.js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.11.4/paper-full.min.js">
+
+    </script>
+</head>
+
+<body class="body-main">
+    <div class="title-container">
+        <div class="title">
+            Spanning Tree by <a href="https://github.com/MrRahmat">Mr.Rahmat</a>
+        </div>
+        <div class="description">
+            <br>Click anywhere to create a point.<br><br>
+            PRIM Algorithm<br>
+            <br>
+            <button id="btn-compute" class="btn-main" type="button" name="compute">Compute</button>
+            <button id="btn-reset" class="btn-main" type="button" name="reset">Reset</button>
+        </div>
+    </div>
+
+    <canvas id="canvas" class="main-canvas" resize></canvas>
+
+    <script type="text/javascript" src="js/vertex.js" canvas="canvas"></script>
+    <script type="text/javascript" src="js/edge.js" canvas="canvas"></script>
+    <script type="text/paperscript" src="js/script.js" canvas="canvas"></script>
+</body>
+
+</html>
