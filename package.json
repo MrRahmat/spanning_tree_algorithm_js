@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.18.2"
   },
   "keywords": [
     "STP"
